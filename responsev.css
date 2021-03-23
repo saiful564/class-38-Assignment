@@ -1,0 +1,149 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (max-width: 1281px) {
+  
+  .container {
+  
+    padding: 0 15px;
+}
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (max-width: 1025px) and (max-width: 1280px) {
+    .header_righr ul {
+      margin-bottom: 10px;
+  }
+    .header_s {
+      height:auto;
+  }
+    .header_righr {
+      width: 100%;
+      text-align: center;
+  }
+  .header_left {
+    padding: 13px 0;
+    width: 100%;
+}
+.single_servic {
+  width: 32%;
+ 
+}
+.slider {
+  height: 40vh;
+}
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (max-width: 768px) and (max-width: 1024px) {
+    
+    .header_righr ul li {
+ 
+      border-right: 0px solid #fff;
+
+  }
+  .srevice_itm {
+    display: block;
+    padding: 10px;
+}
+.single_servic {
+  width: 100%;
+}
+.single_servic {
+  width: 100%;
+  margin-bottom: 21px;
+}
+    
+.aboutarea {
+  display: block;
+}
+.content_left {
+  width: 100%;
+  text-align: center;
+}
+.content_right {
+  width: 100%;
+  text-align: center;
+  padding-right: 0;
+}
+.slider img{
+  background-size: auto;
+}
+.slider {
+  height: 23vh;
+}
+.slider h1 {
+  font-size: 32px;
+}
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (max-width: 481px) and (max-width: 767px) {
+    .header_righr ul li {
+      border-right: 0px solid #fff;
+  }
+    .header_righr ul li a {
+  
+      padding: 0 9px;
+  
+  }
+  .header_left.left img {
+    width: 105px;
+}
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .header_righr ul li a {
+      padding: 0 3px;
+  }
+  .content_right {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .slider p {
+    font-size: 18px;
+   
+}
+.slider h1 {
+  font-size: 22px;
+}
+.slider {
+  height: 3vh;
+}
+    
+  }
